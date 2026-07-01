@@ -49,6 +49,7 @@ ITEM TOWER                          USER TOWER
 [Sentence Transformer] (frozen)
 ↓ 384-dim                       SCORING
 [text embedding]                    score = dot_product(user_emb, item_emb)
+
 **Key design decisions:**
 - CLIP and Sentence Transformer are **frozen** (transfer learning)
 - A **single shared ItemTower** encodes both history and candidate items
@@ -92,7 +93,7 @@ fed_multimodal_rec/
 │   └── precompute_item_embeddings.py  # one-time frozen encoder caching
 ├── slurm/                             # SLURM batch scripts for HPC training
 ├── requirements.txt
-└── README.md
+└── README.md**
 ---
 
 ## Setup
