@@ -74,7 +74,6 @@ Amazon Reviews 2023 (McAuley Lab), Clothing/Shoes/Jewelry category.
 Subsample: 5,000 users, 56,154 unique items, 72,231 interactions.
 
 ---
-
 ## Project Structure
 fed_multimodal_rec/
 ├── src/
@@ -93,8 +92,7 @@ fed_multimodal_rec/
 │   └── precompute_item_embeddings.py  # one-time frozen encoder caching
 ├── slurm/                             # SLURM batch scripts for HPC training
 ├── requirements.txt
-└── README.md**
----
+└── README.md
 
 ## Setup
 
